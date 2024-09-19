@@ -995,3 +995,19 @@ section,
 .button-2:focus {
   background-color: #be1627;
 }
+
+.logo-container {
+  width: 100%; /* adjust the width to your liking */
+  height: 100%; /* adjust the height to your liking */
+  margin: 10px; /* add some margin around the logo */
+  border-radius: 5px; /* add a slight rounded corner to the logo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 100%; /* make the image take up the full width of the container */
+  height: 100%; /* make the image take up the full height of the container */; /* ensure the image is not distorted */
+  size: 2000px;
+}
