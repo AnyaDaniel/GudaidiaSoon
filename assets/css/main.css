@@ -672,13 +672,13 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
 }
 
 .hero p {
   margin: 10px 0 0 0;
-  font-size: 24px;
+  font-size: 34px;
   color: var(--heading-color);
 }
 
@@ -927,4 +927,87 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+.button-1, .button-2 {
+  margin: 0 10px; /* add some margin between buttons */
+}
+
+/* keep the rest of the button styles the same */
+
+.button-1 {
+  background-color: #df1529;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #be1627;
+}
+
+.button-2 {
+  background-color: #df1529;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-2:hover,
+.button-2:focus {
+  background-color: #be1627;
+}
+
+.logo-container {
+  width: 100%; /* adjust the width to your liking */
+  height: 100%; /* adjust the height to your liking */
+  margin: 10px; /* add some margin around the logo */
+  border-radius: 5px; /* add a slight rounded corner to the logo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 100%; /* make the image take up the full width of the container */
+  height: 100%; /* make the image take up the full height of the container */; /* ensure the image is not distorted */
+  size: 2000px;
 }
